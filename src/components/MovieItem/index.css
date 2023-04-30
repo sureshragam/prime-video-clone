@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.movieItem {
+  width: 320px;
+}
+.movieItem > img {
+  width: 100%;
+  height: 100%;
+}
+button {
+  background-color: transparent;
+  border-style: none;
+}
+.popup {
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+.close-icon {
+  width: 25px;
+  height: 25px;
+}
+.popup > button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  align-self: flex-end;
+  outline: none;
+}
